@@ -14,15 +14,12 @@ const _courses = [
   {'title': 'Animations', 'subtitle': 'Implicit & explicit', 'icon': Icons.animation},
   {'title': 'Testing', 'subtitle': 'Unit & widget tests', 'icon': Icons.bug_report},
   {'title': 'Deployment', 'subtitle': 'App Store & Play', 'icon': Icons.rocket_launch},
-  {'title': 'UI Design', 'subtitle': 'Material 3', 'icon': Icons.palette},
-  {'title': 'Accessibility', 'subtitle': 'Semantics & a11y', 'icon': Icons.accessibility},
-  {'title': 'Performance', 'subtitle': 'Profiling & tuning', 'icon': Icons.speed},
 ];
 
-const _cols = 4;
-const _cardW = 150.0;
-const _cardH = 160.0;
-const _gap = 12.0;
+const _cols = 3;
+const _cardW = 220.0;
+const _cardH = 220.0;
+const _gap = 16.0;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
